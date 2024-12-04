@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+  
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 1200;
+    color: #300360;
+    padding-left: 30px;
+}
+
+.logo span{
+    color: #4CAF50;
+}
+.a{
+    margin-right: 50px;
+}
+
+
+
+
+.quote-btn  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+    cursor: pointer;
+}
+
+.quote-btn button {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #300360;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 70px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    color: #0a2a4a;
+    border-radius: 3px;
+}
+
+
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    padding-top: 400px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.hero h2 {
+    font-size: 24px;
+    padding-left: 750px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    padding-left: 600px;
+}
+
+
+
+
+.hero-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.gallery {
+  width: 100%;
+  height: 300px;
+  
+  
+   
+}
+
+
+
+hr {
+    color: black;
+    height: 10px;
+}
+.Temple {
+    background-color: rgb(211, 241, 241);
+}
+
+.Temple p {
+    color: #300360;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 50%;
+    padding-top: 25px;
+}
+h3 {
+    color: #300360;
+    font-size: 25px;
+    padding-left: 40%;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.gallery1 img {
+    width: 30%;
+    margin-left: 5%;
+     height: 300px;
+     margin-top: 10px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     margin-top: -250px;
+    
+}
+.Beaches {
+    background-color: rgb(211, 241, 241);
+}
+.Beaches p {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 50%;
+    padding-top: 25px;
+    color: #300360;
+}
+.gallery2 img {
+    width: 30%;
+   margin-left: 5%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -240px;
+
+}
+.Forts {
+    background-color: rgb(211, 241, 241);
+}
+.Forts p{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 50%;
+    padding-top: 25px;
+    color: #300360;
+}
+.gallery3 img {
+    width: 30%;
+    margin-left: 5%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -250px;
+
+}
+.Waterfalls {
+    background-color: rgb(211, 241, 241);
+}
+.Waterfalls p{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 50%;
+    padding-top: 25px;
+    color: #300360;
+
+}
+.gallery4 img {
+    width: 30%;
+    margin-left: 5%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -250px;
+}
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(10, 0, 68);
+
+
+}
+.footer-box p {
+    color: white;
+    font-size: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-box h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 0px;
+    color: white;
+}
+hr.footer {
+    height: 5px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.Social {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.Social img {
+    width: 40px;
+    height: 40px;
+     
+}

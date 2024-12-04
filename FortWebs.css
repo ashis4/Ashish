@@ -1,0 +1,144 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+  
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 1200;
+    color: #300360;
+    padding-left: 30px;
+}
+
+.logo span{
+    color: #4CAF50;
+}
+.a{
+    margin-right: 50px;
+}
+
+
+
+
+.quote-btn  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+    cursor: pointer;
+}
+
+.quote-btn button {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #300360;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 70px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    color: #0a2a4a;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0 0;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.overview, .expect, .tips {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+    
+    padding-bottom: 5px;
+}
+
+p, ul {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}

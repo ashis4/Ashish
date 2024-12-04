@@ -1,0 +1,169 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+  
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 1200;
+    color: #300360;
+    padding-left: 30px;
+}
+
+.logo span{
+    color: #4CAF50;
+}
+.a{
+    margin-right: 50px;
+}
+
+
+
+
+.quote-btn  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+    cursor: pointer;
+}
+
+.quote-btn button {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #300360;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 70px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    color: #0a2a4a;
+    border-radius: 3px;
+}
+
+
+.Trending-item a {
+    text-decoration: none; /* Remove underline on the link */
+    color: inherit; /* Inherit the color from parent, so text color stays the same */
+}
+
+.Trending-item a:hover {
+    cursor: pointer; /* Change cursor to a pointer when hovering */
+}
+
+.Trending-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Dongle", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Trending Section */
+.Trending {
+    padding: 60px 30px;
+}
+
+.Trending h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.Trending-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.Trending-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.Trending-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Trending-item h3 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.Trending-item p {
+    padding: 0 10px 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Trending-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.Trending-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Hover effects for text */
+.Trending-item:hover h3 {
+    color: #ff7f50;
+}
+
+
+
+
+
+
+
+
+
+
+
